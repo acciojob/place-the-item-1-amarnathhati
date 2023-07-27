@@ -1,2 +1,21 @@
 
 /* Your CSS Code here. */
+ body {
+            margin: 0;
+            padding: 0;
+        }
+        .holder {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: lightgray;
+        }
+        .item {
+            background-color: lightblue;
+            padding: 20px;
+            margin-bottom: 10px;
+            flex: 0 0 calc(33.33% - 10px); /* Set item width to 33.33% with spacing of 10px between items */
+            box-sizing: border-box;
+            text-align: center;
+        }
